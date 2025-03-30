@@ -1,15 +1,38 @@
-#!/bin/bash
+#/bin/bash
 
+# Git push shortcut
 function flem() {
 	git add .
-	git commit -m $1
+	git commit -m "$1"
 	git push
 }
 
+# Git repo cloning shortcut (interactive)
 function clone() {
 	echo -n "Username : "
 	read username
 	echo -n "Repository : "
 	read repository
 	git clone git@github.com:$username/$repository
+}
+
+# Even faster Git cloning shortcut (non-interactive)
+function get() {
+	git clone git@github.com:$1/$2
+}
+
+# SSH shortcut (interactive)
+function remote() {
+        echo -n "User : "
+        read user
+        echo -n "Domain : "
+        read dn
+        echo -n "Port : "
+        read port
+        ssh -p $port $user@$dn
+}
+
+# Even faster SSH shortcut (non-interactive)
+function selem() {
+	ssh -p $1 $2@$3
 }
