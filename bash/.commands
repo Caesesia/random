@@ -1,5 +1,10 @@
 #/bin/bash
 
+# Git pull shortcut
+function pull() {
+	git pull
+}
+
 # Git push shortcut
 function flem() {
 	git add .
