@@ -1,0 +1,15 @@
+#!/bin/bash
+
+function flem() {
+	git add .
+	git commit -m $1
+	git push
+}
+
+function clone() {
+	echo -n "Username : "
+	read username
+	echo -n "Repository : "
+	read repository
+	git clone git@github.com:$username/$repository
+}
