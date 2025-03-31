@@ -41,3 +41,8 @@ function remote() {
 function selem() {
 	ssh -p $1 $2@$3
 }
+
+# Environnement virtuel python
+function ac() {
+	source $1/bin/activate
+}
