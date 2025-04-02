@@ -18,6 +18,6 @@ Il suffit donc simplement d'ajouter un message de commit entre guillements aprè
 
 Ce raccourci est une commande interactive (= champs à remplir) qui permet de cloner un repository distant à l'emplacement actuel de l'utilisateur dans l'arborescence. Voici un exemple d'utilisation :
 
-<img src="clone.png"/>
+<img src="../img/clone.png"/>
 
 On peut voir ci-dessus que j'entre mon nom d'utilisateur et le repository que je souhaite cloner. Le clonage a lieu dans le répertoire courant, qui est "/git" dans mon cas.
