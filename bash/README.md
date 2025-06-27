@@ -2,7 +2,7 @@
 
 ### "commands"
 
-CE FICHIER DOIT ÊTRE RENOMMé ".commmands" ET SOURCé AFIN D'AVOIR DES COMMANDES UTILISABLES.
+CE FICHIER DOIT ÊTRE RENOMMé ".commands" ET SOURCé AFIN D'AVOIR DES COMMANDES UTILISABLES.
 
 Il contient des commandes utilisables indépendamment de la position de l'utilisateur dans l'arborescence.
 
